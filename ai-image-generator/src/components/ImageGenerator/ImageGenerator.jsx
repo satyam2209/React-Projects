@@ -25,7 +25,7 @@ function ImageGenerator() {
         body: JSON.stringify({
           prompt: `${inputRef.current.value}`,
           n: 1,
-          size: "256x256",
+          size: "512x512",
         }),
       }
     );
