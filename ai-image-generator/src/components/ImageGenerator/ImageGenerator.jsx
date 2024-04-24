@@ -19,7 +19,7 @@ function ImageGenerator() {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer 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",
+            "Bearer {write API Key}",
           "User-Agent": "Chrome",
         },
         body: JSON.stringify({
